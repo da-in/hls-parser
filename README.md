@@ -1,1 +1,1 @@
-# media-parser
+# hls-parser
