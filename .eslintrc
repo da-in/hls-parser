@@ -1,0 +1,18 @@
+{
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "arrow-spacing": ["error", { "before":  true, "after":  true}],
+    "space-infix-ops": ["error", { "int32Hint": false }],
+    "object-curly-spacing": "error",
+    "array-bracket-spacing": "error",
+    "computed-property-spacing": "error"
+  },
+  "env": {
+    "node": true
+  },
+  "extends": ["plugin:@typescript-eslint/recommended"]
+}
