@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parse parse master playlist 1`] = `
+{
+  "tags": [
+    {
+      "attributes": {
+        "BANDWIDTH": "288000",
+        "PROGRAM-ID": "1",
+        "RESOLUTION": "256x144",
+      },
+      "name": "EXT-X-STREAM-INF",
+    },
+    {
+      "attributes": {
+        "BANDWIDTH": "582000",
+        "PROGRAM-ID": "1",
+        "RESOLUTION": "426x240",
+      },
+      "name": "EXT-X-STREAM-INF",
+    },
+    {
+      "attributes": {
+        "BANDWIDTH": "1018000",
+        "PROGRAM-ID": "1",
+        "RESOLUTION": "640x360",
+      },
+      "name": "EXT-X-STREAM-INF",
+    },
+    {
+      "attributes": {
+        "BANDWIDTH": "1366000",
+        "PROGRAM-ID": "1",
+        "RESOLUTION": "854x480",
+      },
+      "name": "EXT-X-STREAM-INF",
+    },
+    {
+      "attributes": {
+        "BANDWIDTH": "2742000",
+        "CODECS": "",
+        "PROGRAM-ID": "1",
+      },
+      "name": "EXT-X-STREAM-INF",
+    },
+    {
+      "attributes": {
+        "BANDWIDTH": "5400000",
+        "CODECS": "",
+        "PROGRAM-ID": "1",
+      },
+      "name": "EXT-X-STREAM-INF",
+    },
+    {
+      "attributes": {
+        "BANDWIDTH": "7556000",
+        "CODECS": "",
+        "PROGRAM-ID": "1",
+      },
+      "name": "EXT-X-STREAM-INF",
+    },
+    {
+      "attributes": {
+        "BANDWIDTH": "10768000",
+        "CODECS": "",
+        "PROGRAM-ID": "1",
+      },
+      "name": "EXT-X-STREAM-INF",
+    },
+  ],
+  "type": "MasterPlaylist",
+}
+`;
